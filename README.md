@@ -13,6 +13,7 @@ The Pushing Requires a cURL command from Your Console.
 
     curl --header "Authorization: key=<AUTH-KEY>" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"<DEVICE-ID>\"]}"
 
+````
 
 ## License
 
