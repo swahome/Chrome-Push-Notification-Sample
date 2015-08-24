@@ -1,5 +1,19 @@
 # Push Notifications demo
 
+## Setup
+
+You will need:
+
+* Google Cloud Messaging `Project ID` and an `Authorization Key`
+* You will also need the `Device ID` from the Browser you will be Using
+
+The Pushing Requires a cURL command from Your Console.
+
+````SH
+
+    curl --header "Authorization: key=<AUTH-KEY>" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"<DEVICE-ID>\"]}"
+
+
 ## License
 
 Copyright 2015 Google, Inc.
