@@ -15,6 +15,17 @@ The Pushing Requires a cURL command from Your Console.
 
 ````
 
+Also Remember to Update Your `manifest.json` to set your Project ID`.
+
+````JS
+
+    {
+      "name": "Push Notifications codelab",
+      "gcm_sender_id": "<PROJECT-ID>"
+    }
+
+````
+
 ## License
 
 Copyright 2015 Google, Inc.

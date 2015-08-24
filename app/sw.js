@@ -20,7 +20,7 @@ self.addEventListener('push', function(event) {
     self.registration.showNotification(title, {
      body: 'The Message',
      icon: 'images/icon.png',
-     tag: 'my-tag'
+     tag: 'awesome-tag'
    }));
 });
 
